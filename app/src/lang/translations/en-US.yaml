@@ -729,6 +729,7 @@ wysiwyg_options:
   source_code: Edit Source Code
   fullscreen: Full Screen
   directionality: Directionality
+  useTemplate: Use Template
 dropdown: Dropdown
 choices: Choices
 choices_option_configured_incorrectly: Choices configured incorrectly

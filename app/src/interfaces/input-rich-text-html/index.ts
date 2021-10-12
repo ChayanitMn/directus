@@ -33,6 +33,7 @@ export default defineInterface({
 					'hr',
 					'code',
 					'fullscreen',
+					'useTemplate',
 				],
 			},
 			meta: {
@@ -215,6 +216,10 @@ export default defineInterface({
 						{
 							value: 'ltr rtl',
 							text: '$t:wysiwyg_options.directionality',
+						},
+						{
+							value: 'useTemplate',
+							text: '$t:wysiwyg_options.useTemplate',
 						},
 					],
 				},

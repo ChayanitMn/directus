@@ -330,6 +330,7 @@ export default defineComponent({
 				skin_url: false,
 				content_css: false,
 				content_style: getEditorStyles(props.font as 'sans-serif' | 'serif' | 'monospace'),
+				selector: 'textarea',
 				plugins:
 					'media table hr lists image link pagebreak code insertdatetime autoresize paste preview fullscreen directionality template',
 				branding: false,
@@ -343,7 +344,7 @@ export default defineComponent({
 				style_formats: styleFormats,
 				file_picker_types: 'customImage customMedia image media',
 				link_default_protocol: 'https',
-				templates: [{ title: 'Some title 1', description: 'Some desc 1', content: 'My content' }],
+				templates: 'template/template.json',
 				setup,
 				...(props.tinymceOverrides || {}),
 			};

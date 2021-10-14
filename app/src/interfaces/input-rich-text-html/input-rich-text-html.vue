@@ -163,6 +163,7 @@ import 'tinymce/plugins/paste/plugin';
 import 'tinymce/plugins/preview/plugin';
 import 'tinymce/plugins/fullscreen/plugin';
 import 'tinymce/plugins/directionality/plugin';
+import 'tinymce/plugins/template/plugin';
 import 'tinymce/icons/default';
 
 import Editor from '@tinymce/tinymce-vue';
@@ -330,7 +331,7 @@ export default defineComponent({
 				content_css: false,
 				content_style: getEditorStyles(props.font as 'sans-serif' | 'serif' | 'monospace'),
 				plugins:
-					'media table hr lists image link pagebreak code insertdatetime autoresize paste preview fullscreen directionality',
+					'media table hr lists image link pagebreak code insertdatetime autoresize paste preview fullscreen directionality template',
 				branding: false,
 				max_height: 1000,
 				elementpath: false,
@@ -342,6 +343,7 @@ export default defineComponent({
 				style_formats: styleFormats,
 				file_picker_types: 'customImage customMedia image media',
 				link_default_protocol: 'https',
+				templates: [{ title: 'Some title 1', description: 'Some desc 1', content: 'My content' }],
 				setup,
 				...(props.tinymceOverrides || {}),
 			};

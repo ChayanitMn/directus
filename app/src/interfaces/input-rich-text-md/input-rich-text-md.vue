@@ -70,19 +70,6 @@
 				<v-icon name="insert_link" />
 			</v-button>
 
-			<!-- Add button -->
-
-			<v-button
-				v-tooltip="t('wysiwyg_options.useTemplete') + ' - ' + translateShortcut(['alt', 'v'])"
-				small
-				icon
-				@click="edit('link')"
-			>
-				<v-icon name="insert_link" />
-			</v-button>
-
-			<!-- End Add button -->
-
 			<v-menu show-arrow :close-on-content-click="false">
 				<template #activator="{ toggle }">
 					<v-button v-tooltip="t('wysiwyg_options.table')" small icon @click="toggle">

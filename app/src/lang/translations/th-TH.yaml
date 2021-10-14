@@ -656,6 +656,7 @@ wysiwyg_options:
   source_code: แก้ไข Source Code
   fullscreen: เต็มจอ
   directionality: อย่างมีทิศทาง
+  template: เทมเพลต
 dropdown: ตัวเลือกแบบดรอปดาวน์
 choices: ตัวเลือกแบบช้อยส์
 choices_option_configured_incorrectly: ตั้งค่าตัวเลือกแบบช้อยส์ไม่ถูกต้อง

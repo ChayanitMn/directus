@@ -269,7 +269,7 @@ updated_by: Updated By
 primary_key: Primary Key
 foreign_key: Foreign Key
 finish_setup: Finish Setup
-dismiss: Dismiss
+dismiss: Close
 raw_value: Raw value
 edit_raw_value: Edit Raw Value
 enter_raw_value: Enter raw value...
